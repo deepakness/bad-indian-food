@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+{% include "partials/posthead.html" %}
+
+<body>
+
+    {% include "partials/header.html" %}
+
+    <main class="container">
+        <nav aria-label="breadcrumb">
+            <small>
+                <ul>
+                <li ><a href="/">Home</a></li>
+                <li><a href="{{ breadcrumbLink }}">{{ breadcrumb }}</a></li>
+                <li>{{ title }}</li>
+                </ul>
+            </small>
+        </nav>
+
+        <h1>{{ title }}</h1>
+
+        {{ content }}
+
+    </main>
+
+    {% include "partials/footer.html" %}
+
+</body>
+</html>

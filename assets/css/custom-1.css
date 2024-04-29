@@ -1,0 +1,88 @@
+/* Pink Light scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --primary: #d81b60;
+  --primary-hover: #c2185b;
+  --primary-focus: rgba(216, 27, 96, 0.125);
+  --primary-inverse: #FFF;
+}
+
+/* Pink Dark scheme (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --primary: #d81b60;
+    --primary-hover: #e91e63;
+    --primary-focus: rgba(216, 27, 96, 0.25);
+    --primary-inverse: #FFF;
+  }
+}
+
+/* Pink Dark scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+  --primary: #d81b60;
+  --primary-hover: #e91e63;
+  --primary-focus: rgba(216, 27, 96, 0.25);
+  --primary-inverse: #FFF;
+}
+
+/* Green (Common styles) */
+:root {
+  --form-element-active-border-color: var(--primary);
+  --form-element-focus-color: var(--primary-focus);
+  --switch-color: var(--primary-inverse);
+  --switch-checked-background-color: var(--primary);
+}
+
+.container {
+  max-width: 750px;
+}
+
+.container-fluid {
+  max-width: 1000px;
+}
+
+article{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+article {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Tables */
+table, tr, td, th {
+  border: 1px var(--table-border-color) solid;
+}
+
+table thead {
+    background-color: black;
+}
+
+th {
+  color: #fff;
+}
+
+table {
+  margin-bottom: 0.5rem;
+}
+
+/* Headings */
+
+h2, h3, h4, h5, h6 {
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: #fff3f6;
+}
+
+.lower-footer {
+  margin-top: 3rem;
+}
