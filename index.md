@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.html
 title: Indian Food Items Banned by EU
-description: A collection of multiple Indian food items banned by EU due to them containing harmful toxins.
+metadescription: A collection of multiple Indian food items banned by EU due to them containing harmful toxins.
 date: 2024-04-29
 pagination:
     data: collections.foods
