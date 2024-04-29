@@ -5,7 +5,7 @@ metadescription: A collection of multiple Indian food items banned by EU due to 
 date: 2024-04-29
 pagination:
     data: collections.foods
-    size: 20
+    size: 1500
     alias: foods
 ---
 
