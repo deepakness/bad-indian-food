@@ -5,7 +5,7 @@ module.exports = {
     "website_language": "en",
     "website_author": {
         "name": "DeepakNess",
-        "email": "deepak@bugbrief.com",
+        "email": "me@deepakness.com",
         "twitter": "DeepakNesss",
         "url": "https://twitter.com/DeepakNess"
     }
