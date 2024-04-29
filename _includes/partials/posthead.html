@@ -3,12 +3,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- START - Meta Data -->
-    <meta name="description" content="{{ description }}"/>
+    <meta name="description" content="{{ metadescription }}"/>
     <meta property="og:locale" content="{{ metadata.website_language }}" />
     <link rel="canonical" href="{{ metadata.website_url }}{{ page.url }}" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{ metatitle }} | {{ metadata.website_name }}" />
-    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:description" content="{{ metadescription }}" />
     <meta property="og:url" content="{{ metadata.website_url }}{{ page.url }}" />
     <meta property="og:site_name" content="{{ metadata.website_name }}" />
     <meta property="og:updated_time" content="{{ date }}" />
@@ -20,7 +20,7 @@
     <meta property="og:image:type" content="image/jpeg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{ metatitle }} | {{ metadata.website_name }}" />
-    <meta name="twitter:description" content="{{ description }}" />
+    <meta name="twitter:description" content="{{ metadescription }}" />
     <meta name="twitter:site" content="@{{ metadata.website_author.twitter }}" />
     <meta name="twitter:creator" content="@{{ metadata.website_author.twitter }}" />
     <meta name="twitter:image" content="{{ metadata.website_url }}/assets/images/og.jpg" />
