@@ -13,7 +13,6 @@ After [@SudiptoDoc tweeted](https://twitter.com/SudiptoDoc/status/17844411734170
 
 🎉 Currently, there are 1,234 items in the list with risk decisions from <mark>serious</mark>, <mark>potentially serious</mark>, <mark>not serious</mark>, <mark>no risk</mark>, <mark>potential risk</mark>, and <mark>undecided</mark>.
 
-<div>
 <table>
 <thead>
 <tr>
@@ -34,12 +33,3 @@ After [@SudiptoDoc tweeted](https://twitter.com/SudiptoDoc/status/17844411734170
 </tr>
 {% endfor %}
 </table>
-
-<!-- Pagination links -->
-{% if pagination.href.next %}
-    <a class="contrast" role="button" href="{{ pagination.href.next }}">→</a>
-{% endif %}
-{% if pagination.href.previous %}
-    <a class="contrast" role="button" href="{{ pagination.href.previous }}">←</a>
-{% endif %}
-</div>

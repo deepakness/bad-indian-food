@@ -10,6 +10,7 @@ permalink: "/{{ food.reference | slugify }}-{{ food.meta_title | slugify }}/"
 templateEngineOverride: md, liquid
 breadcrumb: "All Foods"
 breadcrumbLink: "/"
+date: 2024-04-29
 eleventyComputed:
     title: "{{ food.meta_title }}"
     metatitle: "{{ food.meta_title }}"
