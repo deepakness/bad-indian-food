@@ -14,6 +14,13 @@ eleventyComputed:
     title: "{{ food.meta_title }}"
     metatitle: "{{ food.meta_title }}"
     metadescription: "{{ food.meta_description }}"
+    foodcategory: "{{ food.category }}"
+    toxins: "{{ food.toxins }}"
+    notifying_country: "{{ food.notifying_country }}"
+    subject: "{{ food.subject }}"
+    better_category: "{{ food.better_category }}"
+    hazards: "{{ food.hazards }}"
+    risk_decision: "{{ food.risk_decision }}"
 ---
 
 {{ food.description }}
