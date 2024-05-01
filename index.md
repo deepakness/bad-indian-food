@@ -33,3 +33,9 @@ After [@SudiptoDoc tweeted](https://twitter.com/SudiptoDoc/status/17844411734170
 </tr>
 {% endfor %}
 </table>
+
+<script>
+$(document).ready(function () {
+    $('table').DataTable();
+});
+</script>
